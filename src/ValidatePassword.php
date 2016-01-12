@@ -1,5 +1,7 @@
 <?php
 
+namespace JenkinTest;
+
 class ValidatePassword {
 	
 	const MIN_LENGTH = 6;

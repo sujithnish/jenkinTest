@@ -1,6 +1,8 @@
 <?php
 
-require 'C:/xampp/htdocs/others/jenkinTest/src/ValidatePassword.php';
+require_once __DIR__ . '/../vendor/autoload.php';
+
+use JenkinTest\ValidatePassword;
 
 class ValidatePasswordTest extends PHPUnit_framework_TestCase{
 
